@@ -15,7 +15,6 @@ class Computer implements Strategy{
     }
 }
 class English implements Strategy{
-
     @Override
     public void discount() {
         System.out.println("英语6折");
